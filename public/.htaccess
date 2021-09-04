@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILEANAME} !-f
+RewriteCond %{REQUEST_FILEANAME} !-d
+RewriteRule ./githubApiInterface/public/index.html [L]

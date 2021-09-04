@@ -1,0 +1,21 @@
+.pesquisa{
+	display:flex;
+}
+
+.pesquisa input{
+	width:70%;
+}
+.Profile, .Repositories{
+	padding: 20px;
+	display:flex;
+}
+.UserName{
+	margin-left: 50px;
+}
+.UserName ul{
+	display:flex;
+	list-style:none;
+}
+.UserName li{
+	margin-left: 10px;
+}
